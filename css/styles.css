@@ -1,0 +1,208 @@
+:root {
+  --blue: #271d3f;
+  --teal: #49adaf;
+  --dark-teal: #68c2bf;
+  --teal-light: rgba(0, 189, 170, 0.2);
+  --pink: #ff895d;
+  --light-gray: #e5e7eb;
+  --gray-300: rgb(209, 213, 219);
+  --gray-400: rgb(156, 163, 175);
+  --gray-500: rgb(107, 114, 128);
+  --gray-700: rgb(55, 65, 81);
+  --gray-900: rgb(17, 24, 39);
+}
+
+/* @font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat-Regular");
+  src: url("./fonts/montserrat/Montserrat-Regular.ttf") format("tff");
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: local("Century Gothic");
+  src: url("./fonts/centurygothic/GOTHICB.TTF") format("tff");
+} */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Regular.ttf") format("tff");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("./fonts/Lato.ttf") format("tff");
+}
+
+
+html {
+  /* background-color: #f8f8f8; */
+}
+
+body {
+  background-color: white;
+  font-family: "Roboto", Arial, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  /* max-width: 840px; */
+  background-color: white;
+  height: 100vh;
+}
+
+header {
+  display: block;
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  /* max-width: 840px; */
+  z-index: 100;
+  box-sizing: border-box;
+  border-bottom: 1px solid;
+  border-color: var(--gray-300);
+  margin: 0;
+  padding: 0 20px;
+  top: 0;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+nav {
+  /* border-bottom: 1px solid;
+  border-color: var(--gray-300); */
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 5px 10px;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+h3 {
+  margin-bottom: 35px;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--teal);
+  font-weight: bold;
+}
+
+a:hover {
+  /* background-color: var(--teal); */
+  /* color: white; */
+  color: var(--dark-teal);
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+article {
+  font-size: 16px;
+  line-height: 2rem;
+  max-width: 750px;
+  min-width: 300px;
+  padding: 150px 50px;
+}
+
+#splash {
+  display: flex;
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+#splash article {
+  max-width: 450px;
+  min-width: 300px;
+}
+
+#headshot img {
+  width: 200px;
+  border: 2px solid;
+  border-radius: 50%;
+}
+
+#retrospect_icon {
+  margin-bottom: 50px;
+}
+
+#retrospect_icon img {
+  width: 200px;
+}
+
+#retrospect_container {
+  /* display: flex; */
+  margin-top: 55px;
+  /* justify-content: space-between; */
+}
+
+#retrospect_diagram,
+#retrospect_cli {
+  max-width: 700px;
+  margin-top: 75px;
+}
+
+/* #retrospect_cli {
+  max-width: 700px;
+  margin-top: 75px;
+} */
+
+#retrospect_diagram img,
+#retrospect_cli img {
+  width: 100%;
+}
+
+/* #retrospect_cli img {
+  width: 100%;
+} */
+
+#about_me {
+  background-color: #f8f8f8;
+}
+
+#connect h1 {
+  display: block;
+  margin: 0 auto 50px auto;
+  text-align: center;
+}
+
+#connect article ul {
+  max-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#connect ul li {
+  padding: 5px 10px;
+}
+
+@media (max-width: 640px) {
+  #splash {
+    flex-wrap: wrap;
+  }
+  #splash article {
+    padding-top: 75px;
+  }
+}
