@@ -154,12 +154,15 @@ article {
   /* justify-content: space-between; */
 }
 
-#retrospect_diagram,
 #retrospect_cli,
 #retrospect_demo,
 #retrospect_ui {
-  max-width: 700px;
+  max-width: 900px;
   margin-top: 75px;
+}
+
+#retrospect_diagram {
+  max-width: 700px;
 }
 
 /* #retrospect_cli {
@@ -168,10 +171,13 @@ article {
 } */
 
 #retrospect_diagram img,
-#retrospect_cli img,
+#retrospect_cli img {
+  width: 100%;
+}
+
 #retrospect_demo img,
 #retrospect_ui img {
-  width: 100%;
+  width: 900px;
 }
 
 /* #retrospect_cli img {
