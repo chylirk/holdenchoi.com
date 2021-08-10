@@ -155,7 +155,9 @@ article {
 }
 
 #retrospect_diagram,
-#retrospect_cli {
+#retrospect_cli,
+#retrospect_demo,
+#retrospect_ui {
   max-width: 700px;
   margin-top: 75px;
 }
@@ -166,7 +168,9 @@ article {
 } */
 
 #retrospect_diagram img,
-#retrospect_cli img {
+#retrospect_cli img,
+#retrospect_demo img,
+#retrospect_ui img {
   width: 100%;
 }
 
