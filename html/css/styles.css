@@ -35,10 +35,6 @@
 }
 
 
-html {
-  /* background-color: #f8f8f8; */
-}
-
 body {
   background-color: white;
   font-family: "Roboto", Arial, sans-serif;
@@ -120,7 +116,7 @@ article {
   line-height: 2rem;
   max-width: 750px;
   min-width: 300px;
-  padding: 150px 50px;
+  padding: 100px 50px;
 }
 
 #splash {
@@ -145,7 +141,7 @@ article {
 }
 
 #retrospect_icon img {
-  width: 200px;
+  width: 300px;
 }
 
 #retrospect_container {
